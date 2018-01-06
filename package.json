@@ -1,0 +1,26 @@
+{
+  "name": "happy-birthday-to-shy",
+  "author": "Kai Hao",
+  "version": "1.6.2018",
+  "private": true,
+  "homepage": "https://kaihao.info/happy-birthday-to-shy",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kevin940726/happy-birthday-to-shy.git"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && ./deploy.sh"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2"
+  }
+}
